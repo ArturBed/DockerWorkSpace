@@ -1,0 +1,11 @@
+version: "2.4"
+services:
+  jenkins:
+    image: "docker.bintray.io/jfrog/artifactory-jcr"
+    container_name: artifactory
+    ports:
+      - "8081:8081"
+      - "8082:8082"
+    volumes:
+      - /home/panda/artifactory/Artifactory:/artifactory_extra_conf
+
