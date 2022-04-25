@@ -4,7 +4,7 @@ services:
     image: "jenkins/jenkins:2.319.3-lts-jdk11"
     container_name: jenkins
     ports:
-      - "8080:8880"
+      - "8080:8080"
       - "50000:50000"
     volumes:
       - /home/panda/jenkins:/var/jenkins_home
