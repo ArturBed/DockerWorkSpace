@@ -7,5 +7,5 @@ services:
       - "8080:8880"
       - "50000:50000"
     volumes:
-      - /home/panda/jenkins:/var/jenkins_home:rw
+      - /home/panda/jenkins:/var/jenkins_home
 
